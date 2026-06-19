@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ohdiming.github.io/pc-main-aoke-com/sitemap.xml

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>澳客 · 站点介绍</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: #f9f6f0;
+            color: #2c2b28;
+            line-height: 1.75;
+            padding: 0 1.2rem;
+        }
+
+        .page {
+            max-width: 820px;
+            margin: 0 auto;
+            padding: 3rem 0 4rem;
+        }
+
+        /* hero */
+        .hero {
+            text-align: center;
+            padding: 4rem 0 2.8rem;
+            border-bottom: 1px solid #e0d8cc;
+        }
+
+        .hero h1 {
+            font-size: 2.6rem;
+            font-weight: 400;
+            letter-spacing: 0.05em;
+            color: #3d3a35;
+            margin-bottom: 1rem;
+        }
+
+        .hero .sub {
+            font-size: 1.1rem;
+            color: #7e776d;
+            max-width: 600px;
+            margin: 0 auto;
+            font-style: italic;
+        }
+
+        .hero .sub i {
+            font-style: normal;
+            background: #efeae1;
+            padding: 0.1rem 0.5rem;
+            border-radius: 3px;
+        }
+
+        /* section通用 */
+        section {
+            margin-top: 3.2rem;
+        }
+
+        h2 {
+            font-size: 1.6rem;
+            font-weight: 400;
+            color: #3d3a35;
+            margin-bottom: 1.2rem;
+            border-left: 5px solid #c4b9a9;
+            padding-left: 1rem;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+            font-size: 1.05rem;
+        }
+
+        .highlight-box {
+            background: #f2ece3;
+            padding: 1.5rem 2rem;
+            border-radius: 8px;
+            margin: 1.8rem 0;
+            border-left: 6px solid #b3a692;
+            font-size: 1rem;
+        }
+
+        .highlight-box strong {
+            color: #4f4940;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.8rem;
+            margin: 2rem 0 0.5rem;
+        }
+
+        .feature-item {
+            background: #ffffffdd;
+            padding: 1.5rem 1.2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+            border: 1px solid #e5ddd2;
+        }
+
+        .feature-item h3 {
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin-bottom: 0.6rem;
+            color: #4f4940;
+        }
+
+        .feature-item p {
+            font-size: 0.98rem;
+            margin-bottom: 0;
+            color: #5b554c;
+        }
+
+        .faq-block {
+            background: #f7f2ea;
+            padding: 1.6rem 2rem;
+            border-radius: 12px;
+            margin: 2rem 0;
+        }
+
+        .faq-item {
+            margin-bottom: 1.2rem;
+            border-bottom: 1px dashed #d6cdbf;
+            padding-bottom: 1rem;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .faq-q {
+            font-weight: 600;
+            margin-bottom: 0.2rem;
+            color: #3d3a35;
+        }
+
+        .faq-a {
+            color: #5e584f;
+            font-size: 0.98rem;
+        }
+
+        .footer-links {
+            margin-top: 3.5rem;
+            padding-top: 2rem;
+            border-top: 1px solid #ddd6c9;
+            text-align: center;
+            font-size: 0.95rem;
+            color: #7a7368;
+        }
+
+        .footer-links a {
+            color: #5a5245;
+            text-decoration: none;
+            border-bottom: 1px dotted #b3a692;
+            margin: 0 0.3rem;
+        }
+
+        .footer-links a:hover {
+            border-bottom: 1px solid #3d3a35;
+        }
+
+        .inline-link {
+            color: #5a5245;
+            text-decoration: none;
+            border-bottom: 1px dotted #b3a692;
+        }
+
+        .inline-link:hover {
+            border-bottom: 1px solid #3d3a35;
+        }
+
+        @media (max-width: 640px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .feature-grid {
+                grid-template-columns: 1fr;
+                gap: 1.2rem;
+            }
+            .hero .sub {
+                font-size: 1rem;
+            }
+            .page {
+                padding: 2rem 0 3rem;
+            }
+            .highlight-box {
+                padding: 1.2rem 1.2rem;
+            }
+            .faq-block {
+                padding: 1.2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 0 0.8rem;
+            }
+            .hero h1 {
+                font-size: 1.7rem;
+            }
+        }
+
+        /* 引用块装饰 */
+        .quote-note {
+            background: #efe9df;
+            padding: 1rem 1.5rem;
+            border-radius: 6px;
+            font-style: italic;
+            color: #4f4940;
+            margin: 1.8rem 0;
+            border-left: 4px solid #b3a692;
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+
+    <!-- hero -->
+    <header class="hero">
+        <h1>澳客 · 一个安静的站点</h1>
+        <div class="sub">
+            不是每一个网站都需要喧哗。<br>
+            我们只是把该呈现的，清楚地放在那里。
+        </div>
+    </header>
+
+    <!-- 站点说明 -->
+    <section>
+        <h2>关于这个地址</h2>
+        <p>
+            你正在访问的 <a href="https://pc-main-aoke.com" class="inline-link">澳客</a>，是一个以信息呈现为主的页面。
+            它的诞生不是为了追逐流量，而是为了在纷杂的网络中，提供一个相对干净的窗口。
+            无论是浏览还是查阅，都不必被弹窗和催促打断——我们认为这是对访客最基本的尊重。
+        </p>
+        <div class="highlight-box">
+            <strong>一点背景：</strong> 这个站点自上线以来，始终保持着克制的设计风格。
+            内容更新不频繁，但每一处改动都经过斟酌。我们不使用夸张的标语，不收集多余的信息，
+            只想让页面本身说话。
+        </div>
+    </section>
+
+    <!-- 特点/优势区 -->
+    <section>
+        <h2>它有什么不同</h2>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <h3>结构清晰</h3>
+                <p>页面布局遵循阅读习惯，标题、段落、引用块层次分明，不堆砌视觉元素。无论电脑还是手机，排版始终规整。</p>
+            </div>
+            <div class="feature-item">
+                <h3>内容可信</h3>
+                <p>所有信息均经过核实或标注来源，不编造数据，不渲染情绪。我们相信，如实表达比华丽承诺更有价值。</p>
+            </div>
+            <div class="feature-item">
+                <h3>无追踪设计</h3>
+                <p>页面不含第三方追踪脚本、分析代码或广告模块。访问者的浏览行为不会被记录或转卖。</p>
+            </div>
+            <div class="feature-item">
+                <h3>轻量快速</h3>
+                <p>整个页面文件大小控制在合理范围，无冗余框架，加载速度优先。即便是弱网环境，也能流畅打开。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 说明区 + 插入引用 -->
+    <section>
+        <h2>一些说明</h2>
+        <p>
+            如果你是因为某个链接或推荐来到这里，那么你可能已经注意到了：这里没有闪烁的按钮，没有催促注册的弹窗。
+            页面上的每一个元素都有它存在的理由，而不是为了“转化率”。
+        </p>
+        <div class="quote-note">
+            “我们更愿意把 <a href="https://pc-main-aoke.com" class="inline-link">澳客</a> 看作一个安静的公告板——
+            它贴在那里，你可以停下来看两眼，也可以转身离开，都不打扰。”
+        </div>
+        <p>
+            当然，作为站点的一部分，我们也会根据实际需要调整内容结构。但这种调整始终遵循一个原则：
+            不欺骗、不夸大、不浪费访客的时间。
+        </p>
+    </section>
+
+    <!-- FAQ 摘要 -->
+    <section>
+        <h2>常见疑问摘要</h2>
+        <div class="faq-block">
+            <div class="faq-item">
+                <div class="faq-q">—— 这个网站是做什么的？</div>
+                <div class="faq-a">一个提供信息展示与内容说明的页面，主要面向有浏览或查阅需求的访客。它的定位就是“介绍页”本身，没有隐藏功能。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">—— 信息可靠吗？</div>
+                <div class="faq-a">我们尽量确保页面上的每一段内容都有依据。如果涉及外部参考或数据，会以适当方式注明。但建议你结合其他渠道交叉验证。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">—— 为什么没有注册或登录入口？</div>
+                <div class="faq-a">因为当前页面不需要用户身份认证。如果将来有需要，我们会以透明的方式告知，并尊重你的选择。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">—— 如何联系站点维护者？</div>
+                <div class="faq-a">目前页面底部提供了指向主站的链接，你可以通过 <a href="https://pc-main-aoke.com" class="inline-link">澳客</a> 找到更多联系渠道（如果有的话）。我们暂时没有设置独立联系表单。</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 底部链接 -->
+    <footer class="footer-links">
+        <p>
+            主站：<a href="https://pc-main-aoke.com">澳客</a>  ·  内容持续迭代，感谢驻足。
+        </p>
+        <p style="margin-top: 0.8rem; font-size: 0.88rem; color: #968f84;">
+            page generated · no tracking · 2025
+        </p>
+    </footer>
+
+</div>
+</body>
+</html>

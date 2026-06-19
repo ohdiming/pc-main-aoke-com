@@ -1,2 +1,30 @@
-# pc-main-aoke-com
-澳客 - https://pc-main-aoke.com
+# 澳客 - 官方网站
+
+欢迎访问 **澳客** 官方网站，网址为 [https://pc-main-aoke.com](https://pc-main-aoke.com)。本站是澳客在线平台的核心入口，致力于为用户提供便捷、稳定的访问体验。
+
+## 简介
+
+**澳客** 是一个专注于提供综合在线服务的平台。通过访问 [https://pc-main-aoke.com](https://pc-main-aoke.com)，用户可以获取到与澳客相关的各类信息、服务以及最新动态。澳客平台以用户需求为导向，持续优化功能与界面，力求为每一位访客带来流畅的使用感受。
+
+## 特点
+
+- **稳定访问**：通过 [https://pc-main-aoke.com](https://pc-main-aoke.com) 可直接进入澳客平台，无需额外跳转。
+- **信息全面**：澳客官网汇集了平台的核心内容，方便用户快速了解与使用。
+- **持续更新**：澳客团队会定期维护网站，确保内容与服务的时效性。
+
+## 访问方式
+
+要访问 **澳客** 平台，请直接在浏览器中输入以下地址：
+
+[https://pc-main-aoke.com](https://pc-main-aoke.com)
+
+建议使用主流浏览器（如 Chrome、Firefox、Edge 等）以获得最佳浏览效果。如遇访问问题，可尝试刷新页面或检查网络连接。
+
+## 注意事项
+
+- 请认准官方域名 [https://pc-main-aoke.com](https://pc-main-aoke.com)，避免访问仿冒或钓鱼网站。
+- 澳客平台严格遵守相关法律法规，致力于营造安全、健康的网络环境。
+
+## 结语
+
+感谢您关注 **澳客**。如有任何疑问或建议，欢迎通过官网渠道与我们联系。请记住，澳客的官方入口始终为 [https://pc-main-aoke.com](https://pc-main-aoke.com)。
